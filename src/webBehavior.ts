@@ -99,6 +99,8 @@ module powerbi.extensibility.visual {
                 }
             });
 
+            slicers.attr("tabindex","0");
+
             slicers.on("click", (dataPoint: ChicletSlicerDataPoint, index: number) => {
                 if (!dataPoint.selectable) {
                     return;

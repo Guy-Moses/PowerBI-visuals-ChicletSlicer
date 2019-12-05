@@ -450,6 +450,7 @@
     },
     "supportsHighlight": true,
     "suppressDefaultTitle": true,
+    "supportsKeyboardFocus": true,
     "sorting": {
         "default": {}
     }
